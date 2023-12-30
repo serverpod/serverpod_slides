@@ -1,6 +1,6 @@
+import 'package:chapter_01_overview/src/widgets/image_with_title_small.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:get_started/src/widgets/image_with_title_small.dart';
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
@@ -21,7 +21,7 @@ final slideFeaturesAll = Slide(
               child: SmallImageWithTitle(
                 image: SvgPicture.asset(
                   'assets/feature_file_uploads.svg',
-                  package: 'get_started',
+                  package: 'chapter_01_overview',
                   width: 140,
                 ),
                 title: const Text('File uploads'),
@@ -31,7 +31,7 @@ final slideFeaturesAll = Slide(
               child: SmallImageWithTitle(
                 image: SvgPicture.asset(
                   'assets/feature_auth.svg',
-                  package: 'get_started',
+                  package: 'chapter_01_overview',
                   width: 140,
                 ),
                 title: const Text('Authentication'),
@@ -41,7 +41,7 @@ final slideFeaturesAll = Slide(
               child: SmallImageWithTitle(
                 image: SvgPicture.asset(
                   'assets/feature_streaming.svg',
-                  package: 'get_started',
+                  package: 'chapter_01_overview',
                   width: 140,
                 ),
                 title: const Text('Data streaming'),
@@ -56,7 +56,7 @@ final slideFeaturesAll = Slide(
               child: SmallImageWithTitle(
                 image: SvgPicture.asset(
                   'assets/feature_scheduling.svg',
-                  package: 'get_started',
+                  package: 'chapter_01_overview',
                   width: 140,
                 ),
                 title: const Text('Task scheduling'),
@@ -66,7 +66,7 @@ final slideFeaturesAll = Slide(
               child: SmallImageWithTitle(
                 image: SvgPicture.asset(
                   'assets/feature_health.svg',
-                  package: 'get_started',
+                  package: 'chapter_01_overview',
                   width: 140,
                 ),
                 title: const Text('Health checks'),
@@ -76,7 +76,7 @@ final slideFeaturesAll = Slide(
               child: SmallImageWithTitle(
                 image: SvgPicture.asset(
                   'assets/feature_deployment.svg',
-                  package: 'get_started',
+                  package: 'chapter_01_overview',
                   width: 140,
                 ),
                 title: const Text('Easy deployment'),

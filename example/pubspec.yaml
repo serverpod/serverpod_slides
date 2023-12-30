@@ -14,8 +14,11 @@ dependencies:
   slick_slides: ^0.2.0
 
   # Slide packages.
-  get_started:
-    path: ../get_started
+  chapter_01_overview:
+    path: ../chapter_01_overview
+
+  chapter_02_get_started:
+    path: ../chapter_02_get_started
 
   shared:
     path: ../shared

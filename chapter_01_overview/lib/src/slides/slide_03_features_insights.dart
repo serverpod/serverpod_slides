@@ -14,7 +14,7 @@ final slideFeaturesInsights = Slide(
             child: FittedBox(
               child: Image.asset(
                 'assets/feature_insights.webp',
-                package: 'get_started',
+                package: 'chapter_01_overview',
               ),
             ),
           ),
@@ -26,7 +26,7 @@ final slideFeaturesInsights = Slide(
     await precacheImage(
       const AssetImage(
         'assets/feature_insights.webp',
-        package: 'get_started',
+        package: 'chapter_01_overview',
       ),
       context,
     );

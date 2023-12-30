@@ -1,5 +1,6 @@
+import 'package:chapter_01_overview/chapter_01_overview.dart';
+import 'package:chapter_02_get_started/chapter_02_get_started.dart';
 import 'package:flutter/material.dart';
-import 'package:get_started/get_started.dart';
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
@@ -47,6 +48,7 @@ class MyHomePage extends StatelessWidget {
           image: const AssetImage('assets/portrait.jpg'),
           transition: defaultTransition,
         ),
+        ...slidesOverview,
         ...slidesGetStarted,
       ],
     );

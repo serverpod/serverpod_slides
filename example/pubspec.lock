@@ -97,6 +97,20 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  chapter_01_overview:
+    dependency: "direct main"
+    description:
+      path: "../chapter_01_overview"
+      relative: true
+    source: path
+    version: "0.0.1"
+  chapter_02_get_started:
+    dependency: "direct main"
+    description:
+      path: "../chapter_02_get_started"
+      relative: true
+    source: path
+    version: "0.0.1"
   characters:
     dependency: transitive
     description:
@@ -216,13 +230,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  get_started:
-    dependency: "direct main"
-    description:
-      path: "../get_started"
-      relative: true
-    source: path
-    version: "1.0.0+1"
   html:
     dependency: transitive
     description:
