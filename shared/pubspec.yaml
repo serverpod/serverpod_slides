@@ -1,5 +1,5 @@
-name: serverpod_slides
-description: A new Flutter package project.
+name: shared
+description: Shared code between slide packages.
 publish_to: 'none'
 version: 0.0.1
 homepage:
@@ -12,8 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   made_with_serverpod: ^1.1.0
-  slick_slides:
-    path: ../slick_slides/slick_slides
+  slick_slides: ^0.2.0
 
 dev_dependencies:
   flutter_test:
