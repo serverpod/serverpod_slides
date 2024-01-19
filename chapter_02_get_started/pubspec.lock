@@ -408,10 +408,10 @@ packages:
     dependency: "direct main"
     description:
       name: slick_slides
-      sha256: "54b28eda65b8be9c674ab635687e85e7c22f5f0c5e11ee6aa453c87fd83e77b4"
+      sha256: "91c54eca6f071dbc7782ab29404a54a8f0e1f2505dfc8f3601decea69cdb2289"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "0.2.1"
   source_span:
     dependency: transitive
     description:

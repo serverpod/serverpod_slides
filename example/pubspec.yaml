@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  slick_slides: ^0.2.0
+  slick_slides: ^0.2.1
 
   # Slide packages.
   chapter_01_overview:

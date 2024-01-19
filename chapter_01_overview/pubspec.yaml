@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.9
-  slick_slides: ^0.2.0
+  slick_slides: ^0.2.1
   shared:
     path: ../shared
   video_player: ^2.8.1
