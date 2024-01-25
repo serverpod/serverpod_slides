@@ -1,4 +1,5 @@
 import 'package:chapter_01_overview/chapter_01_overview.dart';
+import 'package:chapter_01_overview/src/slides/slide_04_features_vs_code.dart';
 
 export 'src/slides/slide_00_title_overview.dart';
 export 'src/slides/slide_01_features_main.dart';
@@ -10,4 +11,5 @@ final slidesOverview = [
   slideFeaturesMain,
   slideFeaturesAll,
   slideFeaturesInsights,
+  slideFeaturesVSCode,
 ];

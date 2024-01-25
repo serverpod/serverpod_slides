@@ -111,6 +111,20 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  chapter_03_working_with_endpoints:
+    dependency: "direct main"
+    description:
+      path: "../chapter_03_working_with_endpoints"
+      relative: true
+    source: path
+    version: "1.0.0+1"
+  chapter_04_working_with_models:
+    dependency: "direct main"
+    description:
+      path: "../chapter_04_working_with_models"
+      relative: true
+    source: path
+    version: "1.0.0+1"
   characters:
     dependency: transitive
     description:

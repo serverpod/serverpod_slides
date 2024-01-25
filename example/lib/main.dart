@@ -1,5 +1,7 @@
 import 'package:chapter_01_overview/chapter_01_overview.dart';
 import 'package:chapter_02_get_started/chapter_02_get_started.dart';
+import 'package:chapter_03_working_with_endpoints/chapter_03_working_with_endpoints.dart';
+import 'package:chapter_04_working_with_models/chapter_04_working_with_models.dart';
 import 'package:flutter/material.dart';
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
@@ -37,10 +39,12 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SlideDeck(
+      /// Set presenterView to 'true' if you wish to see presenter notes
+      presenterView: false,
       slides: [
         TitleSlide(
           title: 'Serverpod',
-          subtitle: 'Get Started',
+          //subtitle: 'Get Started',
         ),
         PersonSlide(
           title: 'Flutter Developer',
@@ -50,6 +54,8 @@ class MyHomePage extends StatelessWidget {
         ),
         ...slidesOverview,
         ...slidesGetStarted,
+        ...slidesWorkingWithEndpoints,
+        ...slidesWorkingWithModels,
       ],
     );
   }

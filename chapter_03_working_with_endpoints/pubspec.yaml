@@ -1,0 +1,31 @@
+name: chapter_03_working_with_endpoints
+description: "Serverpod's Working With Endpoints slides."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  slick_slides: ^0.2.0
+  shared:
+    path: ../shared
+  video_player: ^2.8.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/
+
