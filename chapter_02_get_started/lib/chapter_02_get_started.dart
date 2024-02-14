@@ -13,10 +13,13 @@ export 'src/slides/slide_09_creating_endpoints_code.dart';
 export 'src/slides/slide_10_calling_endpoints.dart';
 export 'src/slides/slide_11_serializing_data.dart';
 export 'src/slides/slide_12_serializing_data_code.dart';
-export 'src/slides/slide_13_persisting_data_code.dart';
-export 'src/slides/slide_14_persisting_data_insert.dart';
-export 'src/slides/slide_15_persisting_data_find_by_id.dart';
-export 'src/slides/slide_16_piecing_it_together.dart';
+export 'src/slides/slide_13_connecting_to_database.dart';
+export 'src/slides/slide_15_create_migration.dart';
+export 'src/slides/slide_16_apply_migration.dart';
+export 'src/slides/slide_14_persisting_data_orm_code.dart';
+export 'src/slides/slide_17_writing_data_insert.dart';
+export 'src/slides/slide_18_reading_data_find_by_id.dart';
+export 'src/slides/slide_19_piecing_it_together.dart';
 
 final slidesGetStarted = [
   slideTitleGetStarted,
@@ -32,7 +35,10 @@ final slidesGetStarted = [
   slideCallingEndpoints,
   slideSerializingData,
   slideSerializingDataCode,
+  slideConnectingToDatabaseCode,
   slidePersistingDataCode,
+  slideCreateMigrationTerminal,
+  slideApplyMigrationTerminal,
   slidePersistingDataInsert,
   slidePersistingDataFindById,
   slidePiecingItTogether,

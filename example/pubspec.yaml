@@ -20,6 +20,12 @@ dependencies:
   chapter_02_get_started:
     path: ../chapter_02_get_started
 
+  chapter_03_working_with_endpoints:
+    path: ../chapter_03_working_with_endpoints
+
+  chapter_04_working_with_models:
+    path: ../chapter_04_working_with_models
+
   shared:
     path: ../shared
 

@@ -4,3 +4,12 @@ macos/
 linux/
 ios/
 android/
+.DS_Store
+.vscode/
+.flutter-plugins/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
