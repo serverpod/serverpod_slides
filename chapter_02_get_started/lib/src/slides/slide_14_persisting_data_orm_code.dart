@@ -1,9 +1,9 @@
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterServerpodPersistingDataCode = '''Serverpod provides an object-relational mapping, or ORM, which makes it easy to store and retrieve objects.
+const String _presenterServerpodPersistingDataCode = '''Serverpod provides an object-relational mapping, or ORM, which makes it easy to store and retrieve objects from the database.
 
-Add a table key to your protocol file to add a mapping to the database. 
+Add a `table` key to your model file to create a mapping to the database. 
 
 The value specified after the key sets the database table name. 
 
@@ -24,8 +24,8 @@ fields:
   employees: List<Employee>''';
 
 final slidePersistingDataCode = AnimatedCodeSlide(
-  title: 'Object database mapping',
-  notes: presenterServerpodPersistingDataCode,
+  title: 'Object-relational mapping',
+  notes: _presenterServerpodPersistingDataCode,
   formattedCode: [
     FormattedCode(
       code: _serializedCode,

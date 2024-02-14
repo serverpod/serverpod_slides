@@ -1,11 +1,10 @@
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterPersistDataFindById = '''After an object has been inserted into the database, you can retrieve it using the set of "find" methods that are generated with your models. 
-For instance, you can find a single object by its id using the "find by id" method and providing the id of the row.
-
+const String _presenterPersistDataFindById = '''After an object has been inserted into the database, you can retrieve it using the set of "find" methods that are generated with your models. 
+For instance, you can find a single object by its id using the "findById" method and providing the id of the row.
 You can also use expressions to do more refined searches. 
-In the "find single row" method, the "where" parameter is a typed expression builder. 
+In the "findSingleRow" method, the "where" parameter is a typed expression builder. 
 The builder's parameter, "t," contains a description of the table, which gives access to the table's columns.
 ''';
 
@@ -26,7 +25,7 @@ myCompany = await Company.db.findSingleRow(
 ''';
 
 final slidePersistingDataFindById = AnimatedCodeSlide(
-  notes: presenterPersistDataFindById,
+  notes: _presenterPersistDataFindById,
   title: 'Reading from database',
   formattedCode: [
     FormattedCode(

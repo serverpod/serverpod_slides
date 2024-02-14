@@ -1,9 +1,8 @@
 import 'package:slick_slides/slick_slides.dart';
 import 'package:video_player/video_player.dart';
 
-const String presenterServerpodDirectories =
-    '''Now, here's where things get organized. Serverpod will create a new directory called 'mypod', and inside you'll find three Dart packages ready for action.
-
+const String _presenterServerpodDirectories =
+    '''When you create a new project with Serverpod, it sets up a directory structure for you. Inside the newly created 'mypod' directory, you'll find three Dart packages, each with its own role.
 First up, we have 'mypod_server'. This is where you'll write all your server-side code, like adding new features and endpoints. 
 It's your playground for server-side development.
 Then there's 'mypod_client'. 
@@ -12,7 +11,7 @@ And last, we have 'mypod_flutter'.
 This is where your Flutter app lives, pre-configured to connect to your local server.''';
 
 final slideServerpodDirectories = VideoSlide(
-  notes: presenterServerpodDirectories,
+  notes: _presenterServerpodDirectories,
   videoPlayerController: VideoPlayerController.asset(
     'assets/serverpod_directories.mov',
     package: 'chapter_02_get_started',

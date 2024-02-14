@@ -21,6 +21,9 @@ dependencies:
   chapter_01_overview:
     path: ../chapter_01_overview
 
+  chapter_02_get_started:
+    path: ../chapter_02_get_started
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

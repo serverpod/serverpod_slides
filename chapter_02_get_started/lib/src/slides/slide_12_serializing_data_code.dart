@@ -1,18 +1,18 @@
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterServerpodSerializingCode = '''This is a simple example of a yaml file defining a serializable class. 
+const String _presenterServerpodSerializingCode = '''This is a simple example of a yaml file defining a serializable class. 
 
 Serverpod supports serialization of most basic Dart types, including booleans, integers, doubles, Strings, DateTimes, and ByteData. 
 
 You can add Lists and Maps - just make sure to specify their types.
 
-Null safety is also supported. 
+Null safety is supported, but note that the `Map` keys cannot be nullable. 
 
 Note that the keys of Maps must be non-nullable Strings.
 
 Once your classes are generated, you can use them as parameters or return types to endpoint methods. 
-For even more flexibility, you can create custom serialized classes using tools like Freezed.''';
+It's also possible to do your own serialization or to use tools like `Freezed`. You can find more information about this in our documentation.''';
 
 const _serializedCode = '''class: Company
 fields:
@@ -21,7 +21,7 @@ fields:
   employees: List<Employee>''';
 
 final slideSerializingDataCode = AnimatedCodeSlide(
-  notes: presenterServerpodSerializingCode,
+  notes: _presenterServerpodSerializingCode,
   title: 'Serializing data',
   formattedCode: [
     FormattedCode(

@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SlideDeck(
       /// Set presenterView to 'true' if you wish to see presenter notes
-      presenterView: false,
+      presenterView: true,
       slides: [
         TitleSlide(
           title: 'Serverpod',

@@ -1,7 +1,4 @@
 import 'package:chapter_02_get_started/chapter_02_get_started.dart';
-import 'package:chapter_02_get_started/src/slides/slide_13_connecting_to_database.dart';
-import 'package:chapter_02_get_started/src/slides/slide_14_create_migration.dart';
-import 'package:chapter_02_get_started/src/slides/slide_15_apply_migration.dart';
 
 export 'src/slides/slide_00_title_get_started.dart';
 export 'src/slides/slide_01_installation.dart';
@@ -16,7 +13,10 @@ export 'src/slides/slide_09_creating_endpoints_code.dart';
 export 'src/slides/slide_10_calling_endpoints.dart';
 export 'src/slides/slide_11_serializing_data.dart';
 export 'src/slides/slide_12_serializing_data_code.dart';
-export 'src/slides/slide_16_persisting_data_orm_code.dart';
+export 'src/slides/slide_13_connecting_to_database.dart';
+export 'src/slides/slide_15_create_migration.dart';
+export 'src/slides/slide_16_apply_migration.dart';
+export 'src/slides/slide_14_persisting_data_orm_code.dart';
 export 'src/slides/slide_17_writing_data_insert.dart';
 export 'src/slides/slide_18_reading_data_find_by_id.dart';
 export 'src/slides/slide_19_piecing_it_together.dart';

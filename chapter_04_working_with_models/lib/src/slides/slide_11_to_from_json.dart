@@ -1,9 +1,10 @@
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterToFromJson = '''The toJson and fromJson methods are generated on all models to help with serialization. 
-
-Serverpod manages all serialization and we don't need to use these methods by ourselves.''';
+const String _presenterToFromJson = '''Now, let's look at the 'toJson' and 'fromJson' methods, which are automatically generated on all models to assist with serialization. 
+It's important to note that we're examining the generated code here. 
+Serverpod handles serialization seamlessly for you, so you'll rarely need to use these methods manually. 
+However, we'll delve deeper into their functionality and usage in the upcoming slides.''';
 const _serializedCode = '''class ClassName {
   String name;
   ClassName(this.name);
@@ -25,7 +26,7 @@ const _serializedCode = '''class ClassName {
 }''';
 
 final slideToJsonFromJsonCode = AnimatedCodeSlide(
-  notes: presenterToFromJson,
+  notes: _presenterToFromJson,
   title: 'toJson / fromJson',
   formattedCode: [
     FormattedCode(

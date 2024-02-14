@@ -1,6 +1,6 @@
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterServerpodCreatingEndpoints = '''Now let’s talk about endpoints.
+const String _presenterServerpodCreatingEndpoints = '''Now let’s talk about endpoints.
 
 Endpoints are the connection points to the server from the client. 
 
@@ -15,7 +15,7 @@ Endpoints are the connection points to the server from the client.
 - The Session object holds information about the call being made and provides access to the database.''';
 
 final slideCreatingEndpoints = BulletsSlide(
-  notes: presenterServerpodCreatingEndpoints,
+  notes: _presenterServerpodCreatingEndpoints,
   title: 'Creating endpoints',
   bullets: [
     'Place endpoints in the lib/src/endpoints directory',

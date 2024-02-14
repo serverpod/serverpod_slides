@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterPiecingItTogether = '''Working with database is an extensive subject.
+const String _presenterPiecingItTogether = '''Let's delve into these two implementations of the `findByName` method within the 'CompanyEndpoint' class. In the first implementation, we simply query the database to find a company by its name using the 'findSingleRow' method provided by Serverpod. However, in the second implementation, we've enhanced this process by incorporating caching functionality. Here's how it works: first, we check if the requested company is already cached locally using a unique cache key. If it's found in the cache, we return it directly, avoiding unnecessary database queries. If not, we proceed to fetch the company from the database and then cache it locally for future use. By adding this caching mechanism, we can significantly improve performance by reducing the number of database queries, especially for frequently accessed data. This optimization enhances the overall efficiency of our application, providing a smoother experience for our users.
 
 Serverpod comes with great documentation, and there are also many good video tutorials in our Tutorials section. 
 
@@ -37,7 +37,7 @@ const _databaseCached = '''class CompanyEndpoint extends Endpoint {
 }''';
 
 final slidePiecingItTogether = AnimatedCodeSlide(
-  notes: presenterPiecingItTogether,
+  notes: _presenterPiecingItTogether,
   title: 'Piecing it together',
   formattedCode: [
     FormattedCode(

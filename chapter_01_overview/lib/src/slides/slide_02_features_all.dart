@@ -4,24 +4,16 @@ import 'package:flutter_svg/svg.dart';
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterFeaturesAllNotes =
-    '''Serverpod comes with a complete database migration system that helps you apply and version changes to the database.
+const String _presenterFeaturesAllNotes =
+    '''
 
-  1. Upload files straight to Google Cloud Storage, S3, or store them in your database.
-
-  2. Sign in through social logins or wing your own. Currently supports Google, Apple, Firebase, and email.
-
-  3. Pass serialized objects through authenticated sockets. Push messages from your server for real-time communication. Sending messages across a cluster of servers is supported. Perfect for building games, chatting applications, or anything you can imagine.
-
-  4. Serverpod's future calls replace complicated cron jobs. Call a method anytime in the future or after a specified delay. The calls persist even if the server is restarted.
-
-  5. Monitor the database and external services that you are using. Write custom health checks and get notified when something goes wrong. 
-  
-  6. Serverpod comes with Terraform scripts for Google Cloud Platform and AWS, making deploying your server very quick.
+  Serverpod comes with all the features you need to build a complete backend for your Flutter app.
+You can seamlessly upload files directly to Google Cloud Storage, S3, or store them in your database with ease. Sign in through various social platforms like Google, Apple, Firebase, or even create your own authentication system. Utilize authenticated sockets to pass serialized objects for real-time communication, even across a cluster of servers, making it ideal for gaming or chat applications. Replace cumbersome cron jobs with Serverpod's future calls, enabling you to invoke methods at any time or after a specified delay, with the added benefit of persistence even if the server restarts. Keep a close eye on the health of your database and external services through custom health checks, ensuring prompt notification of any issues. Plus, deploying your server is made incredibly quick with Serverpod's included Terraform scripts for Google Cloud Platform and AWS. 
+With Serverpod, building a powerful backend for your Flutter app has never been easier.
 ''';
 
 final slideFeaturesAll = Slide(
-  notes: presenterFeaturesAllNotes,
+  notes: _presenterFeaturesAllNotes,
   theme: const SlideThemeData.light(),
   transition: defaultTransition,
   builder: (context) => ContentLayout(

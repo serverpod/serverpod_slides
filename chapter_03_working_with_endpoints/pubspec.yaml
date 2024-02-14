@@ -16,6 +16,9 @@ dependencies:
     path: ../shared
   video_player: ^2.8.1
 
+  chapter_02_get_started:
+    path: ../chapter_02_get_started
+
   cupertino_icons: ^1.0.2
 
 dev_dependencies:

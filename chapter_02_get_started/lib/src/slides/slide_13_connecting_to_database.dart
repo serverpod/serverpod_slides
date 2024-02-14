@@ -1,11 +1,11 @@
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterServerpodConnectingDatabaseCode =
+const String _presenterServerpodConnectingDatabaseCode =
     '''
-In Serverpod, we persist data through a Postgres database. 
+Serverpod uses a `Postgres` database to store data. 
 
-When working with the database, you will want to connect with a database viewer such as Postico2, PgAdmin, or DBeaver.
+When working with the database, you will likely want to connect with a database viewer such as `Postico2`, `PgAdmin`, or `DBeaver`.
 
 In your project, you can find the connection details such as host, port, database name, user name, and password inside the config directory. 
 ''';
@@ -32,7 +32,7 @@ development:
 
 final slideConnectingToDatabaseCode = AnimatedCodeSlide(
   title: 'Connecting to the database',
-  notes: presenterServerpodConnectingDatabaseCode,
+  notes: _presenterServerpodConnectingDatabaseCode,
   formattedCode: [
     FormattedCode(
       code: _developmentCode,

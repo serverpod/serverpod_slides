@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterNotes = 'This would be the presenter notes for this slide.';
+const String _presenterNotes = 'This would be the presenter notes for this slide.';
 
 final slideKeywords = Slide(
   theme: const SlideThemeData.light(),

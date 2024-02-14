@@ -1,6 +1,6 @@
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterPassingParams = '''Parameters and return types can be of type bool, int, double, String, UuidValue, Duration, DateTime, ByteData, or generated serializable objects.
+const String _presenterPassingParams = '''Parameters and return types can be of type bool, int, double, String, UuidValue, Duration, DateTime, ByteData, or generated serializable objects.
 
 - A typed Future should always be returned. 
 
@@ -14,7 +14,7 @@ const String presenterPassingParams = '''Parameters and return types can be of t
 ''';
 
 final slidePassingParams = BulletsSlide(
-  notes: presenterPassingParams,
+  notes: _presenterPassingParams,
   title: 'Passing Parameters',
   bullets: [
     'Parameters and return types can be of type bool, int, double, String, UuidValue, Duration, DateTime, ByteData, or generated serializable objects',

@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 import 'package:slick_slides/slick_slides.dart';
 
-const String presenterServerpodInstallation = '''Before we dive into Serverpod, let's ensure everyone has Flutter, Dart, and Docker installed and configured. 
+const String _presenterServerpodInstallation = '''Before we dive into Serverpod, let's ensure that we have Flutter, Dart, and Docker installed and configured. 
 
 Great! Now, let's install Serverpod. 
 
@@ -12,7 +12,7 @@ That's it! You're officially ready to explore the wonderful world of Serverpod d
 ''';
 
 final slideInstallation = AnimatedCodeSlide(
-  notes: presenterServerpodInstallation,
+  notes: _presenterServerpodInstallation,
   title: 'Installing Serverpod',
   formattedCode: [
     FormattedCode(code: ''),
