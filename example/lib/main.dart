@@ -1,7 +1,5 @@
-import 'package:chapter_01_overview/chapter_01_overview.dart';
-import 'package:chapter_02_get_started/chapter_02_get_started.dart';
 import 'package:flutter/material.dart';
-import 'package:shared/shared.dart';
+import 'package:serverpod_slides/serverpod_slides.dart';
 import 'package:slick_slides/slick_slides.dart';
 
 void main() async {
@@ -37,19 +35,22 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SlideDeck(
+      presenterView: true,
       slides: [
-        TitleSlide(
-          title: 'Serverpod',
-          subtitle: 'Get Started',
-        ),
         PersonSlide(
           title: 'Flutter Developer',
           name: 'Filippa Flutterista',
           image: const AssetImage('assets/portrait.jpg'),
           transition: defaultTransition,
         ),
-        ...slidesOverview,
-        ...slidesGetStarted,
+        ...slidesBackendBasics,
+        ...slidesServerpodOverview,
+        ...slidesInstallation,
+        ...slidesCreateProject,
+        ...slidesServerpodBasics,
+        ...slidesMigrationBasics,
+        ...slidesDatabaseBasics,
+        ...slidesModelTips,
       ],
     );
   }
