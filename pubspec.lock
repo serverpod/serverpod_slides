@@ -191,13 +191,13 @@ packages:
     source: hosted
     version: "2.0.3"
   flutter_svg:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: flutter_svg
-      sha256: d39e7f95621fc84376bc0f7d504f05c3a41488c562f4a8ad410569127507402c
+      sha256: "7b4ca6cf3304575fe9c8ec64813c8d02ee41d2afe60bcfe0678bcb5375d596a2"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.9"
+    version: "2.0.10+1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -360,13 +360,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
-  serverpod_slides:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -472,26 +465,26 @@ packages:
     dependency: transitive
     description:
       name: vector_graphics
-      sha256: "18f6690295af52d081f6808f2f7c69f0eed6d7e23a71539d75f4aeb8f0062172"
+      sha256: "32c3c684e02f9bc0afb0ae0aa653337a2fe022e8ab064bcd7ffda27a74e288e3"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.9+2"
+    version: "1.1.11+1"
   vector_graphics_codec:
     dependency: transitive
     description:
       name: vector_graphics_codec
-      sha256: "531d20465c10dfac7f5cd90b60bbe4dd9921f1ec4ca54c83ebb176dbacb7bb2d"
+      sha256: c86987475f162fadff579e7320c7ddda04cd2fdeffbe1129227a85d9ac9e03da
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.9+2"
+    version: "1.1.11+1"
   vector_graphics_compiler:
     dependency: transitive
     description:
       name: vector_graphics_compiler
-      sha256: "03012b0a33775c5530576b70240308080e1d5050f0faf000118c20e6463bc0ad"
+      sha256: "12faff3f73b1741a36ca7e31b292ddeb629af819ca9efe9953b70bd63fc8cd81"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.9+2"
+    version: "1.1.11+1"
   vector_math:
     dependency: transitive
     description:
@@ -501,21 +494,21 @@ packages:
     source: hosted
     version: "2.1.4"
   video_player:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: video_player
-      sha256: fbf28ce8bcfe709ad91b5789166c832cb7a684d14f571a81891858fefb5bb1c2
+      sha256: afc65f4b8bcb2c188f64a591f84fb471f4f2e19fc607c65fd8d2f8fedb3dec23
       url: "https://pub.dev"
     source: hosted
-    version: "2.8.2"
+    version: "2.8.3"
   video_player_android:
     dependency: transitive
     description:
       name: video_player_android
-      sha256: "7f8f25d7ad56819a82b2948357f3c3af071f6a678db33833b26ec36bbc221316"
+      sha256: "4dd9b8b86d70d65eecf3dcabfcdfbb9c9115d244d022654aba49a00336d540c2"
       url: "https://pub.dev"
     source: hosted
-    version: "2.4.11"
+    version: "2.4.12"
   video_player_avfoundation:
     dependency: transitive
     description:
