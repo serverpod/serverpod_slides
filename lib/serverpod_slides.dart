@@ -7,3 +7,4 @@ export 'src/05_serverpod_basics/serverpod_basics.dart';
 export 'src/06_migration_basics/migration_basics.dart';
 export 'src/07_database_basics/database_basics.dart';
 export 'src/08_models_tips/model_tips.dart';
+export 'src/09_serverpod_mini/serverpod_mini.dart';
