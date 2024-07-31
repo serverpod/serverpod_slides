@@ -5,7 +5,7 @@ final slideServerpodBasicsSerializingData = BulletsSlide(
   title: 'Serializing data',
   bullets: [
     'Models are defined in YAML files',
-    'Place the models in the lib/src/protocol directory',
+    'Place the models in the lib/src/models directory',
     'Run "serverpod generate" to make models accessible',
   ],
   bulletByBullet: true,
