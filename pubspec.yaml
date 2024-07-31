@@ -32,3 +32,4 @@ flutter:
     - assets/04_create_project/
     - assets/05_serverpod_basics/
     - assets/06_migration_basics/
+    - assets/09_serverpod_mini/
