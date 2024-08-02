@@ -1,4 +1,3 @@
-import 'package:serverpod_slides/serverpod_slides.dart';
 import 'package:slick_slides/slick_slides.dart';
 
 final slideMiniModels = BulletsSlide(
